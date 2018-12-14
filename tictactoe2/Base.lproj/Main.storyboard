@@ -47,7 +47,7 @@ O begins. </string>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O's Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFY-U0-FcC">
-                                                <rect key="frame" x="131.5" y="426" width="74" height="24"/>
+                                                <rect key="frame" x="131.5" y="439" width="74" height="24"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -151,6 +151,24 @@ O begins. </string>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OnJ-fn-zt5"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1g-y6-bXL">
+                                                <rect key="frame" x="126.5" y="465" width="84" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="Play Again"/>
+                                                <connections>
+                                                    <action selector="playAgainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ahv-U4-beC"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O's Has Won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3z-6V-7dp">
+                                                <rect key="frame" x="81.5" y="403" width="174.5" height="36"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="36" id="0GS-bc-aCZ"/>
+                                                    <constraint firstAttribute="width" constant="174.5" id="mYA-Zi-Zhq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
+                                                <color key="textColor" red="0.51813319520842327" green="0.65056266191709844" blue="0.12519893950783179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -159,15 +177,18 @@ O begins. </string>
                                             <constraint firstItem="oWp-p3-Bz5" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="Br4-5W-ht9"/>
                                             <constraint firstItem="czH-CA-Y8A" firstAttribute="leading" secondItem="eVL-wp-ekF" secondAttribute="trailing" constant="19" id="CQ3-Ef-DVp"/>
                                             <constraint firstItem="PHW-EM-Jwo" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="Dtw-ZT-iZF"/>
-                                            <constraint firstItem="jFY-U0-FcC" firstAttribute="top" secondItem="PHW-EM-Jwo" secondAttribute="bottom" constant="24.5" id="G3C-X8-CCL"/>
                                             <constraint firstItem="58u-mg-9wn" firstAttribute="top" secondItem="Vvr-5q-tR3" secondAttribute="bottom" constant="19.5" id="GVR-az-AxI"/>
                                             <constraint firstItem="PHW-EM-Jwo" firstAttribute="centerY" secondItem="Hdt-Ae-sge" secondAttribute="centerY" id="IcJ-78-Ydj"/>
                                             <constraint firstItem="PHW-EM-Jwo" firstAttribute="top" secondItem="S42-Qo-1rZ" secondAttribute="bottom" constant="24.5" id="JiR-Aw-HLO"/>
+                                            <constraint firstItem="Y1g-y6-bXL" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="Ljr-U2-UCj"/>
                                             <constraint firstItem="MDr-x5-xcK" firstAttribute="leading" secondItem="cn5-Zp-odB" secondAttribute="trailing" constant="19" id="MfN-al-enn"/>
+                                            <constraint firstItem="jFY-U0-FcC" firstAttribute="top" secondItem="O3z-6V-7dp" secondAttribute="bottom" id="MiQ-KR-4Qh"/>
                                             <constraint firstItem="dD1-gZ-AVR" firstAttribute="top" secondItem="czH-CA-Y8A" secondAttribute="bottom" constant="18.5" id="NHm-CM-PMT"/>
+                                            <constraint firstItem="O3z-6V-7dp" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="Nk2-c8-0bQ"/>
                                             <constraint firstItem="A8o-6K-esM" firstAttribute="top" secondItem="eVL-wp-ekF" secondAttribute="bottom" constant="18.5" id="OWX-Dq-mfF"/>
                                             <constraint firstItem="pBH-lo-OGG" firstAttribute="top" secondItem="58u-mg-9wn" secondAttribute="bottom" constant="18.5" id="Ocz-Fl-I40"/>
                                             <constraint firstItem="czH-CA-Y8A" firstAttribute="centerY" secondItem="Hdt-Ae-sge" secondAttribute="centerY" id="Tuu-rs-TaP"/>
+                                            <constraint firstItem="O3z-6V-7dp" firstAttribute="top" secondItem="PHW-EM-Jwo" secondAttribute="bottom" constant="1.5" id="Vyh-ZQ-BdD"/>
                                             <constraint firstItem="oWp-p3-Bz5" firstAttribute="top" secondItem="Hdt-Ae-sge" secondAttribute="top" constant="42" id="XFt-4F-NXx"/>
                                             <constraint firstItem="58u-mg-9wn" firstAttribute="centerY" secondItem="Hdt-Ae-sge" secondAttribute="centerY" id="YNj-mc-u1S"/>
                                             <constraint firstItem="dD1-gZ-AVR" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="aAQ-aS-bbR"/>
@@ -175,6 +196,7 @@ O begins. </string>
                                             <constraint firstItem="Vvr-5q-tR3" firstAttribute="leading" secondItem="MDr-x5-xcK" secondAttribute="trailing" constant="24" id="kZ1-Op-OYZ"/>
                                             <constraint firstItem="S42-Qo-1rZ" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="ngy-TE-FZX"/>
                                             <constraint firstItem="MDr-x5-xcK" firstAttribute="centerX" secondItem="Hdt-Ae-sge" secondAttribute="centerX" id="s6p-lY-h1H"/>
+                                            <constraint firstItem="Y1g-y6-bXL" firstAttribute="top" secondItem="jFY-U0-FcC" secondAttribute="bottom" constant="2" id="tit-pL-Si2"/>
                                             <constraint firstItem="S42-Qo-1rZ" firstAttribute="top" secondItem="oWp-p3-Bz5" secondAttribute="bottom" constant="8" id="u9T-eS-UKN"/>
                                             <constraint firstItem="czH-CA-Y8A" firstAttribute="top" secondItem="MDr-x5-xcK" secondAttribute="bottom" constant="19.5" id="uPz-XW-vgm"/>
                                             <constraint firstItem="dD1-gZ-AVR" firstAttribute="leading" secondItem="A8o-6K-esM" secondAttribute="trailing" constant="20" id="v6a-za-i9z"/>
@@ -203,7 +225,9 @@ O begins. </string>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="playAgainButton" destination="Y1g-y6-bXL" id="DVu-fq-OrG"/>
                         <outlet property="whoseTurnLabel" destination="jFY-U0-FcC" id="te9-Bm-5dN"/>
+                        <outlet property="winnerLabel" destination="O3z-6V-7dp" id="wpo-vD-N2N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
