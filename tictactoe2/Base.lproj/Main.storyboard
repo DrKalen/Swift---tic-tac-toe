@@ -52,101 +52,101 @@ O begins. </string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czH-CA-Y8A">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czH-CA-Y8A">
                                                 <rect key="frame" x="131" y="250.5" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="4bT-Ee-0au"/>
                                                     <constraint firstAttribute="height" constant="63" id="htx-Nx-37l"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1VY-Qe-DeA"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cn5-Zp-odB">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cn5-Zp-odB">
                                                 <rect key="frame" x="37" y="168" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="1F7-vy-0Ay"/>
                                                     <constraint firstAttribute="height" constant="63" id="hN2-b1-aaM"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEX-Ti-OYW"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVL-wp-ekF">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVL-wp-ekF">
                                                 <rect key="frame" x="37" y="250.5" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="2za-FW-cGi"/>
                                                     <constraint firstAttribute="height" constant="63" id="YLy-o9-u8Q"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCh-g5-C5T"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8o-6K-esM">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8o-6K-esM">
                                                 <rect key="frame" x="36" y="332" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="40K-AH-vsy"/>
                                                     <constraint firstAttribute="height" constant="63" id="sVp-Jw-YWL"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Wn-po-RGh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD1-gZ-AVR">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD1-gZ-AVR">
                                                 <rect key="frame" x="131" y="332" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="63" id="2D1-jT-mkR"/>
                                                     <constraint firstAttribute="width" constant="75" id="b8Y-gf-ePf"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oO2-os-GWv"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBH-lo-OGG">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBH-lo-OGG">
                                                 <rect key="frame" x="229" y="332" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="63" id="6dc-IV-6Qh"/>
                                                     <constraint firstAttribute="width" constant="75" id="BDd-Mv-odm"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pYw-Lm-d5w"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58u-mg-9wn">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58u-mg-9wn">
                                                 <rect key="frame" x="230" y="250.5" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="ALM-A2-XIH"/>
                                                     <constraint firstAttribute="height" constant="63" id="Wmn-XA-yog"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dvQ-Ib-ScR"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvr-5q-tR3">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvr-5q-tR3">
                                                 <rect key="frame" x="230" y="168" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="75" id="TDO-T7-mLj"/>
                                                     <constraint firstAttribute="height" constant="63" id="ltX-b2-JAn"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Ll-S8-UxH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDr-x5-xcK">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDr-x5-xcK">
                                                 <rect key="frame" x="131" y="168" width="75" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="63" id="UzB-h6-2C1"/>
                                                     <constraint firstAttribute="width" constant="75" id="VJO-mG-JLy"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="nought"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OnJ-fn-zt5"/>
                                                 </connections>
@@ -213,6 +213,5 @@ O begins. </string>
     </scenes>
     <resources>
         <image name="gameBoard" width="606" height="644"/>
-        <image name="nought" width="164" height="126"/>
     </resources>
 </document>

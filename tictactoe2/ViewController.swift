@@ -12,8 +12,25 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var whoseTurnLabel: UILabel!
     
-    @IBAction func button(_ sender: Any) {
-        print("Button Pressed")
+    var activePlayer = 1
+    var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    
+    @IBAction func button(_ sender: UIButton) {
+        let activePosition = sender.tag - 1
+        
+        if gameState[activePosition] == 0 {
+            gameState[activePosition] = activePlayer
+            if activePlayer == 1 {
+                sender.setImage(UIImage(named: "nought.png"), for: [])
+                activePlayer = 2
+            } else {
+                sender.setImage(UIImage(named: "cross.png"), for: [])
+                activePlayer = 1
+            }
+        }
+        
+        
+        print(sender.tag)
     }
     
     
